@@ -1,0 +1,7 @@
+@mixin font-title($color-title-section, $text-align) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: $text-align;
+    color: $color-title-section;
+}

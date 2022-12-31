@@ -1,0 +1,31 @@
+.hero-section {
+    background-image: url(../../img/hero-img.jpg);
+    max-width: 1920px;
+    padding-top: 259px;
+    padding-bottom: 335px;
+}
+
+.hero-section__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-section__title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 829px;
+    margin: 0 auto 50px;
+}
+
+.hero-section__button{
+    @extend %button;
+    margin: 0 auto;
+    display: block;
+}
