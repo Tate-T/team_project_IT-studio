@@ -75,8 +75,20 @@ body {
 .header-section__link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: #FFFFFF;
+  position: relative;
+}
+
+.header-section__active::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #FFFFFF;
 }
 
 .hero-section {
