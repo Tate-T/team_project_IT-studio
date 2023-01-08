@@ -6,7 +6,16 @@
 .mobile__title{
     @include font-title ($color-title-section:$color-main-title, $text-align:center);
     width: 739px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 32px;
+    // margin-right: auto;
+    // margin-left: auto;
+    // margin-bottom: 32px;
+    margin:0 auto 32px; 
+}
+
+.mobile__text{
+    width: 730px;
+    @extend %text;
+    text-align: center;
+    color: $color-main-text;
+    margin: 0 auto 70px;
 }
