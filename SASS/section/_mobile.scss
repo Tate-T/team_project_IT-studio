@@ -1,0 +1,12 @@
+.mobile{
+    padding-top: 110px;
+    padding-bottom: 105px;
+}
+
+.mobile__title{
+    @include font-title ($color-title-section:$color-main-title, $text-align:center);
+    width: 739px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+}

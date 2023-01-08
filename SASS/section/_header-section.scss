@@ -10,7 +10,6 @@
 .header-section__list{
     display: flex;
     justify-content: flex-end;
-    gap: 39px;
 }
 
 .header-section__link {
@@ -19,6 +18,12 @@
     line-height: 1.25;
     color: $color-text-secondary;
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-section__link:hover{
+    color:$color-accent;
 }
 
 .header-section__active::after{
@@ -29,5 +34,9 @@
    display: block;
    width: 100%;
    height: 2px;
-   background-color: $color-text-secondary ;
+   background-color: $color-text-secondary;
+}
+
+.header-section__link:hover .header-section__active::after:hover{
+    background-color: $color-accent;
 }

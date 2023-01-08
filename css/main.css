@@ -69,7 +69,6 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  gap: 39px;
 }
 
 .header-section__link {
@@ -78,6 +77,12 @@ body {
   line-height: 1.25;
   color: #FFFFFF;
   position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-section__link:hover {
+  color: #4985FF;
 }
 
 .header-section__active::after {
@@ -89,6 +94,10 @@ body {
   width: 100%;
   height: 2px;
   background-color: #FFFFFF;
+}
+
+.header-section__link:hover .header-section__active::after:hover {
+  background-color: #4985FF;
 }
 
 .hero-section {
@@ -120,4 +129,21 @@ body {
 .hero-section__button {
   margin: 0 auto;
   display: block;
+}
+
+.mobile {
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+
+.mobile__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+  color: #323232;
+  width: 739px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
 }/*# sourceMappingURL=main.css.map */
