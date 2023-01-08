@@ -5,3 +5,18 @@
     text-align: $text-align;
     color: $color-title-section;
 }
+
+@mixin grid() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+}
+
+@mixin grid-item() {
+    margin-right: 30px;
+    flex-basis: calc((100% - 90px) / 3);
+    margin-bottom: 30px;
+}

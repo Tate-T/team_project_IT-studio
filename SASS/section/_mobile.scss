@@ -1,21 +1,83 @@
-.mobile{
+.mobile {
     padding-top: 110px;
     padding-bottom: 105px;
 }
 
-.mobile__title{
-    @include font-title ($color-title-section:$color-main-title, $text-align:center);
+.mobile__title {
+    @include font-title ($color-title-section: $color-main-title, $text-align: center);
     width: 739px;
     // margin-right: auto;
     // margin-left: auto;
     // margin-bottom: 32px;
-    margin:0 auto 32px; 
+    margin: 0 auto 32px;
 }
 
-.mobile__text{
+.mobile__text {
     width: 730px;
     @extend %text;
     text-align: center;
     color: $color-main-text;
     margin: 0 auto 70px;
+}
+
+.mobile__list {
+    @include grid();
+}
+
+.mobile__item {
+    outline: 2px red solid;
+    display: flex;
+    // width: 353px;
+    @include grid-item();
+}
+
+.decoration-out {
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 17px;
+}
+
+.decoration-in {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #4985FF;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile__svg {
+    width: 40px;
+    height: 40px;
+    fill: $color-accent;
+}
+
+.mobile__content {
+    padding-top: 46px;
+}
+
+.mobile__tutyl {
+    @extend %subtitle;
+    margin-bottom: 12px;
+}
+
+.mobile__name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.mobile__button {
+    @extend %button;
+    display: block;
+    margin: 55px auto 0;
 }
