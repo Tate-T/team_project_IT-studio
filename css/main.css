@@ -39,12 +39,12 @@ body {
 }
 @media screen and (min-width: 700px) {
   .container {
-    min-width: 700px;
+    width: 700px;
   }
 }
 @media screen and (min-width: 1140px) {
   .container {
-    min-width: 1140px;
+    width: 1140px;
   }
 }
 
@@ -63,7 +63,7 @@ body {
   border: none;
 }
 
-.mobile__text {
+.standarts-section__text, .standarts-section__information, .mobile__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.56;
@@ -74,6 +74,15 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+}
+
+.standarts-section__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #4985FF;
 }
 
 .header-section {
@@ -194,7 +203,6 @@ body {
 }
 
 .mobile__item {
-  outline: 2px red solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,4 +273,68 @@ body {
 .mobile__button {
   display: block;
   margin: 55px auto 0;
+}
+
+.standarts-section {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background: #F6F6F8;
+}
+
+.standarts-section__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.standarts-section__info-block {
+  width: 489px;
+  margin-right: 121px;
+}
+
+.standarts-section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: left;
+  color: #323232;
+  margin-bottom: 60px;
+}
+
+.standarts-section__information {
+  margin-bottom: 42px;
+}
+
+.standarts-section__img {
+  width: 500px;
+  height: 400px;
+}
+
+.standarts-section__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: 1px solid #E0E0E0;
+  padding-top: 70px;
+}
+
+.standarts-section__svg {
+  width: 30px;
+  height: 30px;
+  fill: #4985FF;
+}
+
+.standarts-section__statistics {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.standarts-section__text {
+  color: #999999;
 }/*# sourceMappingURL=main.css.map */
