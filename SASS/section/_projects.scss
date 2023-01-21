@@ -1,0 +1,7 @@
+.projects__list {
+    @include grid()
+}
+
+.projects__item {
+    @include grid-item($cards: 4)
+}

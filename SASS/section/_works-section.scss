@@ -1,9 +1,14 @@
-.works{
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+.works {
+    background-image: linear-gradient(to bottom, #5F12D0 50%, $color-text-secondary 50%);
     padding-top: 120px;
+    padding-bottom: 85px;
 }
 
-.works__content{
+.works .container{
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.works__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,12 +16,45 @@
 
 }
 
-.works__title{
-@include font-title($color-title-section: $color-text-secondary, $text-align:left );
- width:540px;
+.works__title {
+    @include font-title($color-title-section: $color-text-secondary, $text-align: left);
+    width: 540px;
 
 }
 
-.works__button{
+.works__button {
     @extend %button;
+}
+
+.works__list {
+    @include grid();
+    padding-bottom: 85px
+}
+
+.works__item {
+    @include grid-item($cards:3);
+}
+
+.works__img {
+    margin-bottom: 30px;
+}
+
+.works__name {
+    @extend %subtitle;
+    margin-bottom: 30px;
+}
+
+.works__name-akcent {
+    @extend %subtitle;
+    color: #4985FF;
+}
+
+.works__text {
+    @extend %text;
+    color: $color-main-text;
+    margin-bottom: 47px;
+}
+
+.works__link {
+    @extend %links;
 }

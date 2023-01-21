@@ -27,7 +27,7 @@
 .mobile__item {
     display: flex;
     // width: 353px;
-    @include grid-item();
+    @include grid-item(3);
 }
 
 .decoration-out {

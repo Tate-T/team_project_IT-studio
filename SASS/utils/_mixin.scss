@@ -15,8 +15,8 @@
     margin-bottom: -30px;
 }
 
-@mixin grid-item() {
+@mixin grid-item($cards) {
     margin-right: 30px;
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - (30px * $cards)) / $cards);
     margin-bottom: 30px;
 }
