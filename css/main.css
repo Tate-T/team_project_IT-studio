@@ -48,7 +48,7 @@ body {
   }
 }
 
-.mobile__button, .hero-section__button {
+.works__button, .mobile__button, .hero-section__button {
   width: 200px;
   height: 45px;
   font-weight: 500;
@@ -337,4 +337,32 @@ body {
 
 .standarts-section__text {
   color: #999999;
+}
+
+.works {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20.44%, #504DC2), color-stop(80.91%, #5F12D0)), #C4C4C4;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+  padding-top: 120px;
+}
+
+.works__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 70px;
+}
+
+.works__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: left;
+  color: #FFFFFF;
+  width: 540px;
 }/*# sourceMappingURL=main.css.map */

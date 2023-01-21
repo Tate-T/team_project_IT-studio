@@ -1,0 +1,22 @@
+.works{
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    padding-top: 120px;
+}
+
+.works__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+
+.works__title{
+@include font-title($color-title-section: $color-text-secondary, $text-align:left );
+ width:540px;
+
+}
+
+.works__button{
+    @extend %button;
+}
