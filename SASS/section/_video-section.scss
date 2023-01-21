@@ -1,0 +1,13 @@
+.video{
+    background-image:url() ;
+}
+
+.video__title{
+    @include font-title ($color-title-section: $color-text-secondary, $text-align: center)
+}
+
+.video__name{
+    @extend %text;
+    text-align: center;
+    color: #FFFFFF;
+}

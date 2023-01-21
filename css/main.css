@@ -73,7 +73,7 @@ body {
   border: none;
 }
 
-.projects__text, .works__text, .standarts-section__text, .standarts-section__information, .mobile__text {
+.video__name, .projects__text, .works__text, .standarts-section__text, .standarts-section__information, .mobile__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.56;
@@ -424,7 +424,7 @@ body {
 }
 
 .projects {
-  color: #F6F6F8;
+  background-color: #F6F6F8;
   padding-top: 100px;
   padding-bottom: 130px;
 }
@@ -473,4 +473,21 @@ body {
 .projects__button {
   display: block;
   margin: 50px auto 0;
+}
+
+.video {
+  background-image: url();
+}
+
+.video__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.video__name {
+  text-align: center;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
