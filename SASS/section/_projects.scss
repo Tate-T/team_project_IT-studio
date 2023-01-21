@@ -1,7 +1,36 @@
+.projects{
+    outline: solid red ;
+    color: $background-section;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.projects__title{
+    @include font-title($color-title-section: $color-title, $text-align: center); 
+}
+
+.projects__text{
+    @extend %text;
+    color: #999999;
+    text-align: center;
+    margin-top: 32;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .projects__list {
-    @include grid()
+    @include grid();
+    margin-top: 70px;
 }
 
 .projects__item {
-    @include grid-item($cards: 4)
+    @include grid-item($cards: 4);
+    
+}
+
+.projects__button{
+    @extend %button;
+    display: block;
+    margin: 50px auto 0;
 }
