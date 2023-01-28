@@ -238,12 +238,34 @@
           <button class="projects__button">Всі проекти</button>
         </div>
       </section>
-       <!-- Відео про нашу роботу -->
+      <!-- Відео про нашу роботу -->
       <section class="video">
         <div class="container">
           <h2 class="video__title">Відео про нашу роботу</h2>
-            <p class="video__name">Просто подивіться, як ми працюємо</p>
-            <p class="video__text">Дивитись відео</p>
+          <p class="video__name">Просто подивіться, як ми працюємо</p>
+          <div class="video__watch">
+            <button class="video__button">
+              <svg width="60" height="60" class="video__icon">
+                <use href="./img/symbol-defs.svg#icon-play-button">
+
+                </use>
+              </svg>
+              <span>Дивитись відео</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="container">
+          <h2 class="subscribe__titile">Підпишіться на нашу розсилку</h2>
+          <p class="subscribe-text">Корисні статті, акції, новини - отримайте все це зараз!</p>
+          <form class="subscribe-form">
+            <input class="subscribe-input" required placeholder="Ваш e-mail" type="text">
+            <button class="subscribe-button"  type="submit">
+              Підписатися
+            </button>
+          </form>
+          <p class="subscribe-warning">Ми не шлем спам, і не передаємо нікому ваші дані</p>
         </div>
       </section>
     </main>
