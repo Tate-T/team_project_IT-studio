@@ -73,13 +73,13 @@ body {
   border: none;
 }
 
-.subscribe-warning, .subscribe-text, .video__name, .projects__text, .works__text, .standarts-section__text, .standarts-section__information, .mobile__text {
+.footer__link, .subscribe-warning, .subscribe-text, .video__name, .projects__text, .works__text, .standarts-section__text, .standarts-section__information, .mobile__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.56;
 }
 
-.subscribe__titile, .works__name-akcent, .works__name, .mobile__tutyl {
+.footer__title, .subscribe__titile, .works__name-akcent, .works__name, .mobile__tutyl {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
@@ -571,6 +571,7 @@ body {
   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
+  margin-bottom: 35px;
 }
 
 .subscribe-input {
@@ -602,4 +603,63 @@ body {
 .subscribe-warning {
   color: #999999;
   text-align: center;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 70px;
+}
+
+.footer__item {
+  margin-right: 30px;
+  -ms-flex-preferred-size: calc((100% - 120px) / 4);
+      flex-basis: calc((100% - 120px) / 4);
+  margin-bottom: 30px;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+.footer__contacts {
+  margin-top: 35px;
+}
+
+.footer__contact:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.footer__link {
+  color: #999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__text {
+  display: block;
+}
+
+.footer__icon {
+  fill: currentColor;
+  margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */
