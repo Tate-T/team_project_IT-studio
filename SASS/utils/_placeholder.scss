@@ -12,6 +12,14 @@
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
     border: none;
+    transition: transform 500ms linear, background-color 500ms linear, color 500ms linear, box-shadow 500ms linear;
+}
+
+%button:hover {
+    transform: scale(1.2);
+    color: $color-accent;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px rgba(73, 133, 255, 0.75);
 }
 
 %text {

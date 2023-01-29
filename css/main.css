@@ -71,6 +71,19 @@ body {
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   border: none;
+  -webkit-transition: background-color 500ms linear, color 500ms linear, -webkit-transform 500ms linear, -webkit-box-shadow 500ms linear;
+  transition: background-color 500ms linear, color 500ms linear, -webkit-transform 500ms linear, -webkit-box-shadow 500ms linear;
+  transition: transform 500ms linear, background-color 500ms linear, color 500ms linear, box-shadow 500ms linear;
+  transition: transform 500ms linear, background-color 500ms linear, color 500ms linear, box-shadow 500ms linear, -webkit-transform 500ms linear, -webkit-box-shadow 500ms linear;
+}
+
+.projects__button:hover, .works__button:hover, .mobile__button:hover, .hero-section__button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: #4985FF;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 10px rgba(73, 133, 255, 0.75);
+          box-shadow: 0px 0px 10px rgba(73, 133, 255, 0.75);
 }
 
 .footer__link, .subscribe-warning, .subscribe-text, .video__name, .projects__text, .works__text, .standarts-section__text, .standarts-section__information, .mobile__text {
@@ -144,7 +157,7 @@ body {
 }
 
 .hero-section {
-  background-image: url(../img/hero-img);
+  background-image: url(../../img/hero-img.jpg);
   max-width: 1920px;
   padding-top: 259px;
   padding-bottom: 335px;
