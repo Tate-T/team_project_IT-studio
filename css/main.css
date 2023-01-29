@@ -476,7 +476,7 @@ body {
 }
 
 .video {
-  background-image: url(../../img/video-img.jpg);
+  background-image: url(../img/video-img.jpg);
   padding-top: 70px;
   padding-bottom: 85px;
   background-repeat: no-repeat;
@@ -498,7 +498,7 @@ body {
 }
 
 .video__watch {
-  background-image: url(../../img/video.png);
+  background-image: url(../img/video.png);
   width: 970px;
   height: 430px;
   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
