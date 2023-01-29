@@ -605,6 +605,10 @@ body {
   text-align: center;
 }
 
+.footer {
+  padding-bottom: 30px;
+}
+
 .footer__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -624,6 +628,7 @@ body {
           align-items: flex-start;
   border-bottom: 1px solid #E0E0E0;
   padding-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .footer__item {
@@ -662,4 +667,12 @@ body {
 .footer__icon {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.footer__info {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.61;
+  text-align: center;
+  color: #999999;
 }/*# sourceMappingURL=main.css.map */
