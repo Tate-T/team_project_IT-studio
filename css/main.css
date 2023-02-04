@@ -289,9 +289,10 @@ body {
 }
 
 .hero-section {
-  background-image: url(../../img/hero-img.jpg);
+  background-image: url(img/hero-img.jpg);
   max-width: 1920px;
   padding-top: 259px;
+  background-color: #A1A1A1;
   padding-bottom: 335px;
 }
 
