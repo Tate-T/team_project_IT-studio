@@ -33,6 +33,10 @@
     height: 400px;
 }
 
+.standarts-section__img-rotation{
+    animation: to-right 1s ease-out 300ms both;
+}
+
 .standarts-section__list {
     display: flex;
     justify-content: space-evenly;

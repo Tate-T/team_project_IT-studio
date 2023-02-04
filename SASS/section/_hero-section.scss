@@ -14,6 +14,10 @@
     margin-bottom: 20px;
 }
 
+.hero__text-bottom {
+    animation: to-bottom 1s ease-out 400ms both;
+}
+
 .hero-section__title {
     font-weight: 800;
     font-size: 48px;
@@ -24,8 +28,16 @@
     margin: 0 auto 50px;
 }
 
-.hero-section__button{
+.hero-section__title-left {
+    animation: to-left 1s ease-out 200ms both;
+}
+
+.hero-section__button {
     @extend %button;
     margin: 0 auto;
     display: block;
+}
+
+.hero-section__button-top {
+    animation: to-top 1s ease-out 800ms both;
 }

@@ -5,7 +5,10 @@
     border-bottom: 1px solid $color-border;
     background-repeat: no-repeat;
     width: 100%;
-    background-color: rgba(37, 36, 36, 0.655);
+    // background-color: rgba(37, 36, 36, 0.655);
+    z-index: 100;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.500) 80%, rgba(37, 36, 36, 0.655), rgba(255, 255, 255, 0.5));
+    backdrop-filter: blur(5px);
 }
 
 .header-section__list{
@@ -36,6 +39,11 @@
    width: 100%;
    height: 2px;
    background-color: $color-text-secondary;
+
+   .header-section__item:hover & {
+    background-color:$color-accent;
+}
+
 }
 
 .header-section__link:hover .header-section__active::after:hover{

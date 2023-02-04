@@ -1,4 +1,4 @@
-.footer{
+.footer {
     padding-bottom: 30px;
 }
 
@@ -35,6 +35,12 @@
     color: $color-main-text;
     display: flex;
     align-items: center;
+    transition: transform 500ms linear 100ms, color 500ms linear 100ms;
+}
+
+.footer__link:hover {
+    transform: scale(1.05);
+    color: $color-accent;
 }
 
 .footer__text {
