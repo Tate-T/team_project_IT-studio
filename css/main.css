@@ -289,7 +289,7 @@ body {
 }
 
 .hero-section {
-  background-image: url(../../img/hero-img.jpg);
+  background-image: url(../img/hero-img.jpg);
   max-width: 1920px;
   padding-top: 259px;
   padding-bottom: 335px;
@@ -742,6 +742,15 @@ body {
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   margin-bottom: 35px;
+  -webkit-transition: -webkit-transform 500ms linear 200ms;
+  transition: -webkit-transform 500ms linear 200ms;
+  transition: transform 500ms linear 200ms;
+  transition: transform 500ms linear 200ms, -webkit-transform 500ms linear 200ms;
+}
+
+.subscribe-form:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .subscribe-input {

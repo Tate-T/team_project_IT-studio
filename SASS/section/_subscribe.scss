@@ -26,6 +26,11 @@
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
     margin-bottom: 35px;
+    transition: transform 500ms linear 200ms;
+}
+
+.subscribe-form:hover{
+transform: scale(1.05);
 }
 
 .subscribe-input {
