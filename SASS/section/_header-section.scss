@@ -4,11 +4,19 @@
     position: fixed;
     border-bottom: 1px solid $color-border;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     // background-color: rgba(37, 36, 36, 0.655);
     z-index: 100;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.500) 80%, rgba(37, 36, 36, 0.655), rgba(255, 255, 255, 0.5));
     backdrop-filter: blur(5px);
+}
+
+.header-section__nav{
+    display: none;
+
+    @media screen and (min-width: 700px) {
+        display: block;
+    }
 }
 
 .header-section__list{

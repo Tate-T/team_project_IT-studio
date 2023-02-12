@@ -9,6 +9,10 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 
+    @media screen and (min-width: 400px) {
+        width: 400px;
+    }
+
     @media screen and (min-width: 700px) {
         width: 700px;
     }

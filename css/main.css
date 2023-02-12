@@ -221,6 +221,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (min-width: 400px) {
+  .container {
+    width: 400px;
+  }
+}
 @media screen and (min-width: 700px) {
   .container {
     width: 700px;
@@ -258,12 +263,21 @@ body {
   position: fixed;
   border-bottom: 1px solid #A1A1A1;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
   z-index: 100;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0.5)), color-stop(rgba(37, 36, 36, 0.655)), to(rgba(255, 255, 255, 0.5)));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 80%, rgba(37, 36, 36, 0.655), rgba(255, 255, 255, 0.5));
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+}
+
+.header-section__nav {
+  display: none;
+}
+@media screen and (min-width: 700px) {
+  .header-section__nav {
+    display: block;
+  }
 }
 
 .header-section__list {
@@ -331,13 +345,23 @@ body {
 
 .hero-section__title {
   font-weight: 800;
-  font-size: 48px;
+  font-size: 24px;
   line-height: 1.33;
   text-align: center;
   color: #FFFFFF;
   max-width: 829px;
   margin: 0 auto 50px;
   text-shadow: 10px 10px 20px red, 20px 20px 40px blue;
+}
+@media screen and (min-width: 700px) {
+  .hero-section__title {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .hero-section__title {
+    font-size: 48px;
+  }
 }
 
 .hero-section__title-left {
