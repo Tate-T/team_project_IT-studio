@@ -1,55 +1,3 @@
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
-input {
-  margin: 0;
-}
-
-body {
-  font-family: "Montserrat";
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media screen and (min-width: 700px) {
-  .container {
-    width: 700px;
-  }
-}
-@media screen and (min-width: 1140px) {
-  .container {
-    width: 1140px;
-  }
-}
-
 .projects__button, .works__button, .mobile__button, .hero-section__button {
   width: 200px;
   height: 45px;
@@ -103,8 +51,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #4985FF;
 }
 
@@ -233,6 +180,78 @@ body {
     opacity: 1;
   }
 }
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+input {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 700px) {
+  .container {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+.scroll-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #4985FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+}
+
 .header-section {
   padding-bottom: 40px;
   padding-top: 40px;

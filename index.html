@@ -22,19 +22,19 @@
       <nav class="header-section__nav animate__heartBeat">
         <ul class="header-section__list">
           <li class="header-section__item">
-            <a class="header-section__link header-section__active" href="#">Головна</a>
+            <a class="header-section__link header-section__active" href="/">Головна</a>
           </li>
           <li class="header-section__item">
-            <a class="header-section__link" href="#">Наші проекти</a>
+            <a class="header-section__link" href="#projects">Наші проекти</a>
           </li>
           <li class="header-section__item">
-            <a class="header-section__link" href="#">Послуги</a>
+            <a class="header-section__link" href="#mobile">Послуги</a>
           </li>
           <li class="header-section__item">
-            <a class="header-section__link" href="#">Новини</a>
+            <a class="header-section__link" href="#standarts">Новини</a>
           </li>
           <li class="header-section__item">
-            <a class="header-section__link" href="#">Контакти</a>
+            <a class="header-section__link" href="#contacts">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -54,7 +54,7 @@
       </div>
     </section>
     <!-- Moбільні додатки -->
-    <section class="mobile">
+    <section id="mobile" class="mobile">
       <div class="container">
         <h2 data-aos="zoom-out-down" class="mobile__title">
           Ми створюємо мобільні додатки для великих корпорацій
@@ -119,7 +119,7 @@
           class="mobile__button">Всі послуги</button>
       </div>
     </section>
-    <section class="standarts-section">
+    <section id="standarts" class="standarts-section">
       <div class="container">
         <div class="standarts-section__block">
           <div data-aos="fade-right" class="standarts-section__info-block">
@@ -228,7 +228,7 @@
       </div>
     </section>
     <!-- Наші проекти -->
-    <section class="projects">
+    <section id="projects" class="projects">
       <div class="container">
         <h2 class="projects__title" data-aos="fade-right">Наші проекти</h2>
         <p class="projects__text" data-aos="fade-left">
@@ -289,8 +289,8 @@
     <div class="container">
       <ul class="footer__list">
         <li class="footer__item">
-          <h2 class="footer__title">Контактная информация</h2>
-          <ul class="footer__contacts">
+          <h2 class="footer__title">Контактна інформація</h2>
+          <ul id="contacts" class="footer__contacts">
             <li class="footer__contact">
               <a href="" class="footer__link">
                 <svg width="15" height="15" class="footer__icon">
@@ -432,6 +432,7 @@
       <p class="footer__info">&#169; 2023. Всі права захищені</p>
     </div>
   </footer>
+  <a class="scroll-button" href="">&#8743;</a>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
