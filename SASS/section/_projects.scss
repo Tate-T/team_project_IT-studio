@@ -25,7 +25,11 @@
 
 .projects__item {
     @include grid-item($cards: 4);
-    
+    transition: transform 500ms linear 250ms;
+}
+
+.projects__item:hover{
+    transform: scale(1.05)
 }
 
 .projects__button{

@@ -28,6 +28,11 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    transition: transform 500ms linear 250ms;
+}
+
+.video__watch:hover{
+    transform: scale(1.05)
 }
 
 .video__button {

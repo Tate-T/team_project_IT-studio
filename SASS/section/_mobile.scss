@@ -28,11 +28,25 @@
     display: flex;
     // width: 353px;
     @include grid-item(3);
+    transition: fill 500ms ease-in 250ms, border 500ms ease-in 250ms, background-color 500ms ease-in 250ms;
+}
+
+.mobile__item:hover .mobile__svg{
+    fill: $icon-color;
+}
+
+.mobile__item:hover .decoration-out{
+    border: 1px solid $color-accent;
+}
+
+.mobile__item:hover .decoration-in{
+    border: 1px solid $icon-color;
+    background-color: rgba(73, 134, 255, 0.7);
 }
 
 .decoration-out {
     border-radius: 50%;
-    border: 1px solid #E0E0E0;
+    border: 1px solid $icon-color;
     width: 110px;
     height: 110px;
     flex-shrink: 0;
@@ -46,7 +60,7 @@
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    border: 1px solid #4985FF;
+    border: 1px solid $color-accent;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
