@@ -5,7 +5,7 @@
 
 .mobile__title {
     @include font-title ($color-title-section: $color-main-title, $text-align: center);
-    width: 739px;
+    max-width: 739px;
     // margin-right: auto;
     // margin-left: auto;
     // margin-bottom: 32px;
@@ -13,7 +13,7 @@
 }
 
 .mobile__text {
-    width: 730px;
+    max-width: 730px;
     @extend %text;
     text-align: center;
     color: $color-main-text;
@@ -31,15 +31,15 @@
     transition: fill 500ms ease-in 250ms, border 500ms ease-in 250ms, background-color 500ms ease-in 250ms;
 }
 
-.mobile__item:hover .mobile__svg{
+.mobile__item:hover .mobile__svg {
     fill: $icon-color;
 }
 
-.mobile__item:hover .decoration-out{
+.mobile__item:hover .decoration-out {
     border: 1px solid $color-accent;
 }
 
-.mobile__item:hover .decoration-in{
+.mobile__item:hover .decoration-in {
     border: 1px solid $icon-color;
     background-color: rgba(73, 134, 255, 0.7);
 }

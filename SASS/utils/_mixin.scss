@@ -1,9 +1,17 @@
 @mixin font-title($color-title-section, $text-align) {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.47;
     text-align: $text-align;
     color: $color-title-section;
+    line-height: 1.47;
+    font-size: 20px;
+
+    @media screen and (min-width:$tablet) {
+        font-size: 28px;
+    }
+
+    @media screen and (min-width:$dekstop) {
+        font-size: 36px;
+    }
 }
 
 @mixin grid() {
