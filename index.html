@@ -39,7 +39,6 @@
         </ul>
       </nav>
     </div>
-    <div></div>
     <button class="modal-open__button" data-open-modal>
       <svg class="modal-open__icon">
         <use href="./img/symbol-defs.svg#icon-paragraph-justify">
@@ -47,30 +46,7 @@
         </use>
       </svg>
     </button>
-    <div class="modal is-hidden" data-backdrop>
-      <svg class="modal-close" data-close-modal>
-        <use href="./img/symbol-defs.svg#icon-cross">
 
-        </use>
-      </svg>
-      <ul class="modal-list">
-        <li class="modal-item">
-          <a class="modal-link" href="/">Головна</a>
-        </li>
-        <li class="modal-item">
-          <a class="modal-link" href="#projects">Наші проекти</a>
-        </li>
-        <li class="modal-item">
-          <a class="modal-link" href="#mobile">Послуги</a>
-        </li>
-        <li class="modal-item">
-          <a class="modal-link" href="#standarts">Новини</a>
-        </li>
-        <li class="modal-item">
-          <a class="modal-link" href="#contacts">Контакти</a>
-        </li>
-      </ul>
-    </div>
   </header>
   <main>
     <!-- Секція герой -->
@@ -465,6 +441,32 @@
     </div>
   </footer> -->
   <!-- <a class="scroll-button" href="">&#8743;</a> -->
+  
+  <div class="modal is-hidden" data-backdrop>
+    <svg class="modal-close" data-close-modal>
+      <use href="./img/symbol-defs.svg#icon-cross">
+
+      </use>
+    </svg>
+    <ul class="modal-list">
+      <li class="modal-item">
+        <a class="modal-link" href="/">Головна</a>
+      </li>
+      <li class="modal-item">
+        <a class="modal-link" href="#projects">Наші проекти</a>
+      </li>
+      <li class="modal-item">
+        <a class="modal-link" href="#mobile">Послуги</a>
+      </li>
+      <li class="modal-item">
+        <a class="modal-link" href="#standarts">Новини</a>
+      </li>
+      <li class="modal-item">
+        <a class="modal-link" href="#contacts">Контакти</a>
+      </li>
+    </ul>
+  </div>
+
   <script>
     const refs = {
         openModalBtn: document.querySelector("[data-open-modal]"),
